@@ -15,29 +15,18 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
-								alt="facebook"
+								 style={{backgroundColor: '#0b38a0'}}
+								src="./kelpie.svg"
+								alt="kelpie"
 								className="work-image"
 							/>
-							<div className="work-title">Facebook</div>
+							<div className="work-title">Kelpie Solutions</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Frontend Engineer
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">2021 - Present</div>
 						</div>
 
-						<div className="work">
-							<img
-								src="./twitter.png"
-								alt="twitter"
-								className="work-image"
-							/>
-							<div className="work-title">Twitter</div>
-							<div className="work-subtitle">
-								Software Engineer
-							</div>
-							<div className="work-duration">2019 - Present</div>
-						</div>
 					</div>
 				}
 			/>
